@@ -7,10 +7,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    @IBOutlet weak var tableView: UITableView!
+    
+    var emptyList = [String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.dataSource = self
+        tableView.delegate = self
         getData()
     }
 
@@ -29,11 +35,25 @@ class ViewController: UIViewController {
             fatalError("There was a problem to decoding the data")
         }
         
-        print(dataJSON.className)
+        self.emptyList.removeAll()
+        
         for data in dataJSON.member {
-            print(data.name)
+//            print(data.name)
+            self.emptyList.append(data.name)
         }
+        self.tableView.reloadData()
+        
     }
-
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        print(emptyList)
+        return emptyList.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
+        cell?.textLabel?.text = emptyList[indexPath.row]
+        return cell!
+    }
 }
 
