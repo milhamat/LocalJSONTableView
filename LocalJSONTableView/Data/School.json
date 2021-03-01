@@ -1,0 +1,101 @@
+{
+   "className":"IPA.2",
+   "member":[
+      {
+         "gender":"male",
+         "hoby":"Draw",
+         "council":true,
+         "club":"ArtD",
+         "name":"M Tejo S",
+         "rank":1
+      },
+      {
+         "gender":"female",
+         "hoby":"Dance",
+         "council":true,
+         "club":"DanceClu",
+         "name":"Marni L",
+         "rank":2
+      },
+      {
+         "gender":"male",
+         "hoby":" ",
+         "council":false,
+         "club":" ",
+         "name":"Marten",
+         "rank":3
+      },
+      {
+         "gender":"male",
+         "hoby":"Math",
+         "council":true,
+         "club":"MatheMathian",
+         "name":"Marlo B",
+         "rank":4
+      },
+      {
+         "gender":"male",
+         "hoby":"Football",
+         "council":false,
+         "club":"LingFC",
+         "name":"Justin",
+         "rank":5
+      },
+      {
+         "gender":"female",
+         "hoby":"Sing",
+         "council":false,
+         "club":"MClub",
+         "name":"Rika",
+         "rank":6
+      },
+      {
+         "gender":"female",
+         "hoby":"Drag Race",
+         "council":false,
+         "club":" ",
+         "name":"Marni",
+         "rank":7
+      },
+      {
+         "gender":"female",
+         "hoby":"Invest",
+         "council":true,
+         "club":"antiMiskin",
+         "name":"Jihan",
+         "rank":8
+      },
+      {
+         "gender":"male",
+         "hoby":"Menabung",
+         "council":false,
+         "club":"YukNikah",
+         "name":"Jhon",
+         "rank":9
+      },
+      {
+         "gender":"male",
+         "hoby":"Belanja Onlen",
+         "council":false,
+         "club":"KereHore",
+         "name":"Johan",
+         "rank":10
+      },
+      {
+         "gender":"male",
+         "hoby":"Manjat",
+         "council":true,
+         "club":"PiderMan",
+         "name":"Tegar",
+         "rank":11
+      },
+      {
+         "gender":"female",
+         "hoby":"Nonton Drakor",
+         "council":true,
+         "club":"OppaSan*e",
+         "name":"Susi",
+         "rank":12
+      }
+   ]
+}
